@@ -18,3 +18,30 @@ h1 {
   color: antiquewhite;
   margin-bottom: 20px;
 }
+
+.titulo {
+  color: antiquewhite;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.temp {
+  color: antiquewhite;
+  font-weight: bold;
+}
+
+.tempTitulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.tempInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
