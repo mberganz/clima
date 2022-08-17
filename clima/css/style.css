@@ -19,33 +19,6 @@ h1 {
   margin-bottom: 20px;
 }
 
-.titulo {
-  color: antiquewhite;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-}
-
-.temp {
-  color: antiquewhite;
-  font-weight: bold;
-}
-
-.tempTitulo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-}
-
-.tempInfo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .busca {
   display: flex;
   justify-content: center;
@@ -86,10 +59,10 @@ input::placeholder {
 .resultado {
   width: 300px;
   display: none;
-  border: 1px dotted gray;
+  border: 5px solid antiquewhite;
   margin-top: 20px;
   border-radius: 15px;
-  background-color: antiquewhite;
+  background-color: gray;
 }
 
 .titulo{
@@ -143,7 +116,7 @@ input::placeholder {
 .ventoArea{
   width: 50px;
   height: 50px;
-  border: 1px solid gray;
+  border: 1px solid antiquewhite;
   border-radius: 50%;
   margin: auto;
   margin-top: 20px;
@@ -154,7 +127,7 @@ input::placeholder {
 .ventoPonto {
   width: 15px;
   height: 1px;
-  background-color: gray;
+  background-color: antiquewhite;
   transform-origin: left;
 }
 
@@ -164,7 +137,7 @@ input::placeholder {
 }
 
 .climaTitulo{
-  color: gray;
+  color: antiquewhite;
   font-size: 16px;
   margin-bottom: 25px;
   margin-top: -25px;
